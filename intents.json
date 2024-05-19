@@ -1,0 +1,22 @@
+{"intents": [
+  {"tag":  "greetings",
+  "patterns":  ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+  "responses": ["Hello!", "Hey!", "What can I do for you?"]
+  },
+  {"tag":  "goodbye",
+  "patterns":  ["bye", "see you later", "see you next time", "ciao", "i have to go now", "what's up?"],
+  "responses": ["Goodbye!", "See you later!", "Hope to see you soon!"]
+  },
+  {"tag":  "name",
+  "patterns":  ["what is your name?", "tell me your name", "name?", "your name?", "what do i call you?"],
+  "responses": ["My name is rolo!", "You can call me rolo.", "My given name is the great overseer but you can call me rolo."]
+  },
+  {"tag":  "shop",
+  "patterns":  ["what do you sell?", "what items do you store?", "tell me what you sell", "what all do you sell?"],
+  "responses": ["I sell video games, comics, and sports memorobilia."]
+  },
+  {"tag":  "sports",
+  "patterns":  ["what team do you support?", "do you watch any sports?", "favourite team?", "what sports do you follow?", "tell me your favourite team"],
+  "responses": ["Sorry to disappoint you I do not watch any sports :("]
+  }
+]}
